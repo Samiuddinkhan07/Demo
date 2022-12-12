@@ -1,0 +1,1466 @@
+.customTooltip .introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.customTooltip .introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.customTooltip introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.customTooltip .introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.customTooltip .introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.customTooltip .introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.customTooltip .introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.customTooltip .introjs-tooltip-header {
+	display: none !important;
+}
+
+/* .customTooltip .introjs-tooltipbuttons{ */
+/* 	display: none !important; */
+/* } */
+.customTooltip {
+	line-height: 17px !important;
+	width: 270px !important;
+	background: #fff !important;
+	border-radius: 40px !important;
+	padding: 3px !important;
+	text-align: center !important;
+	/* color: #000; */
+	height: 158px !important;
+}
+
+.customTooltip:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 24px solid #fff;
+	border-right: 12px solid transparent;
+	border-top: 12px solid #fff;
+	border-bottom: 20px solid transparent;
+	left: 243px;
+	bottom: -33px;
+	top: -2px;
+	transform: rotate(210deg);
+}
+
+/*This is for css is for Home intro ends */
+
+/*This Css is for side bar menu start*/
+.sideBarTooltip .introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.sideBarTooltip .introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.sideBarTooltip introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.sideBarTooltip .introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.sideBarTooltip .introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.sideBarTooltip .introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.sideBarTooltip .introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.sideBarTooltip .introjs-tooltip-header {
+	display: none !important;
+}
+
+.sideBarTooltip {
+	line-height: 17px !important;
+	width: 270px !important;
+	background: #fff !important;
+	border-radius: 40px !important;
+	padding: 3px !important;
+	text-align: center !important;
+	/* color: #000; */
+	height: 158px !important;
+}
+
+.sideBarTooltip:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 24px solid #fff;
+	border-right: 12px solid transparent;
+	border-top: 12px solid #fff;
+	border-bottom: 20px solid transparent;
+	left: -16px;
+	bottom: -33px;
+	top: -2px;
+	transform: rotate(201deg);
+}
+/*This Css is for side bar menu end*/
+
+/* This css is for  Toggle intro guide*/
+.toggleToolTips .introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.toggleToolTips .introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.toggleToolTips introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.toggleToolTips .introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.toggleToolTips .introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.toggleToolTips .introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.toggleToolTips .introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.toggleToolTips .introjs-tooltip-header {
+	display: none !important;
+}
+
+.toggleToolTips {
+	line-height: 17px !important;
+	width: 270px !important;
+	background: #fff !important;
+	border-radius: 40px !important;
+	padding: 3px !important;
+	text-align: center !important;
+	/* color: #000; */
+	height: 158px !important;
+}
+
+.toggleToolTips:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 24px solid #fff;
+	border-right: 12px solid transparent;
+	border-top: 12px solid #fff;
+	border-bottom: 20px solid transparent;
+	left: 23px;
+	bottom: -33px;
+	top: -17px;
+	transform: rotate(243deg);
+}
+/* This css is for  Toggle intro guide ends*/
+
+/* DI toggle CSS */
+.DITooltip .introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.DITooltip .introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.DITooltip introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.DITooltip .introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.DITooltip .introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.DITooltip .introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.DITooltip .introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.DITooltip .introjs-tooltip-header {
+	display: none !important;
+}
+
+.DITooltip .introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.DITooltip .introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.DITooltip introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.DITooltip .introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.DITooltip .introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.DITooltip .introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.DITooltip .introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.DITooltip .introjs-tooltip-header {
+	display: none !important;
+}
+
+.DITooltip {
+	line-height: 17px !important;
+	width: 270px !important;
+	background: #fff !important;
+	border-radius: 40px !important;
+	padding: 3px !important;
+	text-align: center !important;
+	/* color: #000; */
+	height: 158px !important;
+}
+
+.DITooltip:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 24px solid #fff;
+	border-right: 12px solid transparent;
+	border-top: 12px solid #fff;
+	border-bottom: 20px solid transparent;
+	left: -6px;
+    bottom: -33px;
+    top: -4px;
+    transform: rotate(230deg);
+}
+
+/* DI toggle CSS */
+
+/* DA toggle CSS*/
+.DATooltip .introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.DATooltip .introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.DATooltip introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.DATooltip .introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.DATooltip .introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.DATooltip .introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.DATooltip .introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.DATooltip .introjs-tooltip-header {
+	display: none !important;
+}
+
+.DATooltip .introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.DATooltip .introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.DATooltip introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.DATooltip .introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.DATooltip .introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.DATooltip .introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.DATooltip .introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.DATooltip .introjs-tooltip-header {
+	display: none !important;
+}
+
+.DATooltip {
+	line-height: 17px !important;
+	width: 270px !important;
+	background: #fff !important;
+	border-radius: 40px !important;
+	padding: 3px !important;
+	text-align: center !important;
+	/* color: #000; */
+	height: 158px !important;
+}
+
+.DATooltip:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 24px solid #fff;
+	border-right: 12px solid transparent;
+	border-top: 12px solid #fff;
+	border-bottom: 20px solid transparent;
+	left: -6px;
+	bottom: -33px;
+	top: -6px;
+	transform: rotate(219deg);
+}
+/* DA toggle CSS*/
+
+/* ETL icons css*/
+.iconETLTooltip .introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.iconETLTooltip .introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.iconETLTooltip introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.iconETLTooltip .introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.iconETLTooltip .introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.iconETLTooltip .introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.iconETLTooltip .introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.iconETLTooltip .introjs-tooltip-header {
+	display: none !important;
+}
+
+.iconETLTooltip .introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.iconETLTooltip .introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.iconETLTooltip introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.iconETLTooltip .introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.iconETLTooltip .introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.iconETLTooltip .introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.iconETLTooltip .introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.iconETLTooltip .introjs-tooltip-header {
+	display: none !important;
+}
+
+.iconETLTooltip {
+	line-height: 17px !important;
+	width: 270px !important;
+	background: #fff !important;
+	border-radius: 40px !important;
+	padding: 3px !important;
+	text-align: center !important;
+	/* color: #000; */
+	height: 158px !important;
+}
+
+.iconETLTooltip:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 24px solid #fff;
+	border-right: 12px solid transparent;
+	border-top: 12px solid #fff;
+	border-bottom: 20px solid transparent;
+	left: 23px;
+	bottom: -33px;
+	top: -17px;
+	transform: rotate(243deg);
+}
+
+/* ETL icons css*/
+
+/* ConnectionDI css*/
+.connectionDITooltip .introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.connectionDITooltip .introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.connectionDITooltip introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.connectionDITooltip .introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.connectionDITooltip .introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.connectionDITooltip .introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.connectionDITooltip .introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.connectionDITooltip .introjs-tooltip-header {
+	display: none !important;
+}
+
+.connectionDITooltip.introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.connectionDITooltip.introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.connectionDITooltipintrojs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.connectionDITooltip.introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.connectionDITooltip.introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.connectionDITooltip.introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.connectionDITooltip.introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.connectionDITooltip.introjs-tooltip-header {
+	display: none !important;
+}
+
+.connectionDITooltip {
+	line-height: 17px !important;
+	width: 270px !important;
+	background: #fff !important;
+	border-radius: 40px !important;
+	padding: 3px !important;
+	text-align: center !important;
+	/* color: #000; */
+	height: 158px !important;
+}
+
+.connectionDITooltip:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 24px solid #fff;
+	border-right: 12px solid transparent;
+	border-top: 12px solid #fff;
+	border-bottom: 20px solid transparent;
+	left: 23px;
+	bottom: -33px;
+	top: -17px;
+	transform: rotate(243deg);
+}
+
+/* ConnectionDI css*/
+
+/* File and data css*/
+.fileAndDataDITooltip .introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.fileAndDataDITooltip .introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.fileAndDataDITooltip introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.fileAndDataDITooltip .introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.fileAndDataDITooltip .introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.fileAndDataDITooltip .introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.fileAndDataDITooltip .introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.fileAndDataDITooltip .introjs-tooltip-header {
+	display: none !important;
+}
+
+.fileAndDataDITooltip.introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.fileAndDataDITooltip.introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.fileAndDataDITooltipintrojs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.fileAndDataDITooltip.introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.fileAndDataDITooltip.introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.fileAndDataDITooltip.introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.fileAndDataDITooltip.introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.fileAndDataDITooltip.introjs-tooltip-header {
+	display: none !important;
+}
+
+.fileAndDataDITooltip {
+	line-height: 17px !important;
+	width: 270px !important;
+	background: #fff !important;
+	border-radius: 40px !important;
+	padding: 3px !important;
+	text-align: center !important;
+	/* color: #000; */
+	height: 158px !important;
+}
+
+.fileAndDataDITooltip:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 24px solid #fff;
+	border-right: 12px solid transparent;
+	border-top: 12px solid #fff;
+	border-bottom: 20px solid transparent;
+	left: -4px;
+	bottom: -33px;
+	top: -5px;
+	transform: rotate(218deg);
+}
+
+/* File and data css*/
+
+/* Settings css*/
+.settingDITooltip .introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.settingDITooltip .introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.settingDITooltip introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.settingDITooltip .introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.settingDITooltip .introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.settingDITooltipp .introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.settingDITooltip .introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.settingDITooltip .introjs-tooltip-header {
+	display: none !important;
+}
+
+.settingDITooltip.introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.settingDITooltip.introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.settingDITooltipintrojs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.settingDITooltip.introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.settingDITooltip.introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.settingDITooltip.introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.settingDITooltip.introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.settingDITooltip.introjs-tooltip-header {
+	display: none !important;
+}
+
+.settingDITooltip {
+	line-height: 17px !important;
+	width: 270px !important;
+	background: #fff !important;
+	border-radius: 40px !important;
+	padding: 3px !important;
+	text-align: center !important;
+	/* color: #000; */
+	height: 158px !important;
+}
+
+.settingDITooltip:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 24px solid #fff;
+	border-right: 12px solid transparent;
+	border-top: 12px solid #fff;
+	border-bottom: 20px solid transparent;
+	left: 23px;
+	bottom: -33px;
+	top: -17px;
+	transform: rotate(243deg);
+}
+
+/* Analytics Feature css*/
+.analyticsFeaturesTooltip .introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.analyticsFeaturesTooltip .introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.analyticsFeaturesTooltip introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.analyticsFeaturesTooltip .introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.analyticsFeaturesTooltip .introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.analyticsFeaturesTooltip .introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.analyticsFeaturesTooltip .introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.analyticsFeaturesTooltip .introjs-tooltip-header {
+	display: none !important;
+}
+
+.analyticsFeaturesTooltip {
+	line-height: 17px !important;
+	width: 270px !important;
+	background: #fff !important;
+	border-radius: 40px !important;
+	padding: 3px !important;
+	text-align: center !important;
+	/* color: #000; */
+	height: 158px !important;
+}
+
+.analyticsFeaturesTooltip:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 24px solid #fff;
+	border-right: 12px solid transparent;
+	border-top: 12px solid #fff;
+	border-bottom: 20px solid transparent;
+	left: -16px;
+	bottom: 0px;
+	top: -1px;
+	transform: rotate(217deg);
+}
+/* Analytics Feature css*/
+
+/* AI feactues css*/
+.AiTooltip .introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.AiTooltip .introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.AiTooltip introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.AiTooltip .introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.AiTooltip .introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.AiTooltip .introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.AiTooltip .introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.AiTooltip .introjs-tooltip-header {
+	display: none !important;
+}
+
+.AiTooltip {
+	line-height: 17px !important;
+	width: 270px !important;
+	background: #fff !important;
+	border-radius: 40px !important;
+	padding: 3px !important;
+	text-align: center !important;
+	/* color: #000; */
+	height: 158px !important;
+}
+
+.AiTooltip:before {
+	content: "";
+	width: 0px;
+	height: 0px;
+	position: absolute;
+	border-left: 24px solid #fff;
+	border-right: 12px solid transparent;
+	border-top: 12px solid #fff;
+	border-bottom: 20px solid transparent;
+	left: -16px;
+	bottom: 0px;
+	top: -1px;
+	transform: rotate(217deg);
+}
+/* AI feactues css*/
+
+
+
+
+/* Transform features css*/
+
+
+.transformFeaturesTooltip .introjs-tooltip-title {
+    color: #ffff !important;
+}
+
+.transformFeaturesTooltip .introjs-tooltip-header {
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB) !important;
+    border-radius: 4px !important;
+
+}
+
+.transformFeaturesTooltip introjs-skipbutton {
+    top: -4px !important;
+    right: -4px !important;
+    font-weight: 500 !important;
+}
+
+.transformFeaturesTooltip .introjs-tooltiptext {
+    font-size: inherit;
+    padding: 34px;
+}
+
+.transformFeaturesTooltip .introjs-nextbutton {
+    border: 2px solid #3a81e9 !important;
+    color: white !important;
+    text-shadow: none !important;
+    text-shadow: none !important;
+    position: absolute !important;
+    top: 96% !important;
+    left: 91% !important;
+}
+
+.transformFeaturesTooltip .introjs-prevbutton {
+    border: 2px solid #3a81e9 !important;
+    color: white !important;
+    text-shadow: none !important;
+    position: absolute !important;
+    left: -11% !important;
+    top: 96% !important;
+}
+
+.transformFeaturesTooltip .introjs-tooltipbuttons {
+    border-top: none !important;
+    display: none !important;
+}
+
+.transformFeaturesTooltip .introjs-tooltip-header {
+    display: none !important;
+}
+
+
+.transformFeaturesTooltip {
+    line-height: 17px !important;
+    width: 270px !important;
+    background: #fff !important;
+    border-radius: 40px !important;
+    padding: 3px !important;
+    text-align: center !important;
+    /* color: #000; */
+    height: 158px !important;
+}
+
+.transformFeaturesTooltip:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 24px solid #fff;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #fff;
+    border-bottom: 20px solid transparent;
+    left: -16px;
+    bottom: 0px;
+    top: -1px;
+    transform: rotate(217deg);
+}
+/* Transform features css*/
+
+/*DS knowledge css*/
+
+.dsKnowledgeTooltip .introjs-tooltip-title {
+    color: #ffff !important;
+}
+
+.dsKnowledgeTooltip .introjs-tooltip-header {
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB) !important;
+    border-radius: 4px !important;
+
+}
+
+.dsKnowledgeTooltip introjs-skipbutton {
+    top: -4px !important;
+    right: -4px !important;
+    font-weight: 500 !important;
+}
+
+.dsKnowledgeTooltip .introjs-tooltiptext {
+    font-size: inherit;
+    padding: 34px;
+}
+
+.dsKnowledgeTooltip .introjs-nextbutton {
+    border: 2px solid #3a81e9 !important;
+    color: white !important;
+    text-shadow: none !important;
+    text-shadow: none !important;
+    position: absolute !important;
+    top: 96% !important;
+    left: 91% !important;
+}
+
+.dsKnowledgeTooltip .introjs-prevbutton {
+    border: 2px solid #3a81e9 !important;
+    color: white !important;
+    text-shadow: none !important;
+    position: absolute !important;
+    left: -11% !important;
+    top: 96% !important;
+}
+
+.dsKnowledgeTooltip .introjs-tooltipbuttons {
+    border-top: none !important;
+    display: none !important;
+}
+
+.dsKnowledgeTooltip .introjs-tooltip-header {
+    display: none !important;
+}
+
+
+.dsKnowledgeTooltip {
+    line-height: 17px !important;
+    width: 270px !important;
+    background: #fff !important;
+    border-radius: 40px !important;
+    padding: 3px !important;
+    text-align: center !important;
+    /* color: #000; */
+    height: 158px !important;
+}
+
+.dsKnowledgeTooltip:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 24px solid #fff;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #fff;
+    border-bottom: 20px solid transparent;
+    left: -16px;
+    bottom: 0px;
+    top: -1px;
+    transform: rotate(217deg);
+}
+/*DS knowledge css*/
+
+/* Search toggle css*/
+
+.searchToggleTooltip .introjs-tooltip-title {
+	color: #ffff !important;
+}
+
+.searchToggleTooltip .introjs-tooltip-header {
+	background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB)
+		!important;
+	border-radius: 4px !important;
+}
+
+.searchToggleTooltip introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.searchToggleTooltip .introjs-tooltiptext {
+	font-size: inherit;
+	padding: 34px;
+}
+
+.searchToggleTooltip .introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	top: 96% !important;
+	left: 91% !important;
+}
+
+.searchToggleTooltip .introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+	color: white !important;
+	text-shadow: none !important;
+	position: absolute !important;
+	left: -11% !important;
+	top: 96% !important;
+}
+
+.searchToggleTooltip .introjs-tooltipbuttons {
+	border-top: none !important;
+	display: none !important;
+}
+
+.searchToggleTooltip .introjs-tooltip-header {
+	display: none !important;
+}
+
+
+.searchToggleTooltip {
+    line-height: 17px !important;
+    width: 270px !important;
+    background: #fff !important;
+    border-radius: 40px !important;
+    padding: 3px !important;
+    text-align: center !important;
+    /* color: #000; */
+    height: 158px !important;
+}
+
+.searchToggleTooltip:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 24px solid #fff;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #fff;
+    border-bottom: 20px solid transparent;
+    left: 13px;
+    bottom: 0px;
+    top: -17px;
+    transform: rotate(236deg);
+}
+/* search toggle css*/
+
+/* Calender css*/
+
+.CalenderTooltip .introjs-tooltip-title {
+    color: #ffff !important;
+}
+
+.CalenderTooltip .introjs-tooltip-header {
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB) !important;
+    border-radius: 4px !important;
+
+}
+
+.CalenderTooltip introjs-skipbutton {
+    top: -4px !important;
+    right: -4px !important;
+    font-weight: 500 !important;
+}
+
+.CalenderTooltip .introjs-tooltiptext {
+    font-size: inherit;
+    padding: 34px;
+}
+
+.CalenderTooltip .introjs-nextbutton {
+    border: 2px solid #3a81e9 !important;
+    color: white !important;
+    text-shadow: none !important;
+    text-shadow: none !important;
+    position: absolute !important;
+    top: 96% !important;
+    left: 91% !important;
+}
+
+.CalenderTooltip .introjs-prevbutton {
+    border: 2px solid #3a81e9 !important;
+    color: white !important;
+    text-shadow: none !important;
+    position: absolute !important;
+    left: -11% !important;
+    top: 96% !important;
+}
+
+.CalenderTooltip .introjs-tooltipbuttons {
+    border-top: none !important;
+    display: none !important;
+}
+
+.CalenderTooltip .introjs-tooltip-header {
+    display: none !important;
+}
+
+
+.CalenderTooltip {
+    line-height: 17px !important;
+    width: 270px !important;
+    background: #fff !important;
+    border-radius: 40px !important;
+    padding: 3px !important;
+    text-align: center !important;
+    /* color: #000; */
+    height: 158px !important;
+}
+
+.CalenderTooltip:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 24px solid #fff;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #fff;
+    border-bottom: 20px solid transparent;
+    left: 248px;
+    bottom: 0px;
+    top: -7px;
+    transform: rotate(215deg);
+}
+/* Calender css*/
