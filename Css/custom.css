@@ -1,0 +1,75 @@
+.CalenderTooltip .introjs-tooltip-title {
+    color: #ffff !important;
+}
+
+.CalenderTooltip .introjs-tooltip-header {
+    background-image: linear-gradient(144deg, #AF40FF, #5B42F3 50%, #00DDEB) !important;
+    border-radius: 4px !important;
+
+}
+
+.CalenderTooltip introjs-skipbutton {
+    top: -4px !important;
+    right: -4px !important;
+    font-weight: 500 !important;
+}
+
+.CalenderTooltip .introjs-tooltiptext {
+    font-size: inherit;
+    padding: 34px;
+}
+
+.CalenderTooltip .introjs-nextbutton {
+    border: 2px solid #3a81e9 !important;
+    color: white !important;
+    text-shadow: none !important;
+    text-shadow: none !important;
+    position: absolute !important;
+    top: 96% !important;
+    left: 91% !important;
+}
+
+.CalenderTooltip .introjs-prevbutton {
+    border: 2px solid #3a81e9 !important;
+    color: white !important;
+    text-shadow: none !important;
+    position: absolute !important;
+    left: -11% !important;
+    top: 96% !important;
+}
+
+.CalenderTooltip .introjs-tooltipbuttons {
+    border-top: none !important;
+    display: none !important;
+}
+
+.CalenderTooltip .introjs-tooltip-header {
+    display: none !important;
+}
+
+
+.CalenderTooltip {
+    line-height: 17px !important;
+    width: 270px !important;
+    background: #fff !important;
+    border-radius: 40px !important;
+    padding: 3px !important;
+    text-align: center !important;
+    /* color: #000; */
+    height: 158px !important;
+}
+
+.CalenderTooltip:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 24px solid #fff;
+    border-right: 12px solid transparent;
+    border-top: 12px solid #fff;
+    border-bottom: 20px solid transparent;
+    left: -16px;
+    bottom: 0px;
+    top: -1px;
+    transform: rotate(217deg);
+}
