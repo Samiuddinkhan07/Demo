@@ -1,0 +1,97 @@
+.customTooltip .introjs-tooltip-title {
+	color: #ffff !important;
+    margin-left: -21px !important;
+    width: 115%;
+    margin-top: -10px;
+}
+
+.customTooltip .introjs-tooltip-header {
+/* 	background: #2667A9;  */
+    border-radius: 2px;
+    width: 101%;
+    height: 48%;
+
+}
+
+.customTooltip introjs-skipbutton {
+	top: -4px !important;
+	right: -4px !important;
+	font-weight: 500 !important;
+}
+
+.customTooltip .introjs-tooltiptext {
+/* 	font-size: inherit; */
+/* 	padding: 34px; */
+	border-top: 2px solid #000;
+    margin-top: 7px;
+    margin-left: -3px;
+    box-shadow: 2px -6px 14px -8px rgb(0 0 0);
+    border-radius: 4px;
+    width: 102%;
+    background: #002147;
+    color: white;
+    height: 188px;
+    text-align: left;
+}
+
+.customTooltip .introjs-nextbutton {
+	border: 2px solid #3a81e9 !important;
+    color: white !important;
+    text-shadow: none !important;
+    text-shadow: none !important;
+    position: absolute !important;
+    top: 84% !important;
+    left: 76% !important;
+    background: inherit !important;
+}
+
+.customTooltip .introjs-prevbutton {
+	border: 2px solid #3a81e9 !important;
+    color: #fff !important;
+    text-shadow: none !important;
+    position: absolute !important;
+    left: 46% !important;
+    top: 84% !important;
+    background: inherit;
+}
+
+ .customTooltip .introjs-bullets {
+ 
+ display:none !important;
+ }
+
+.customTooltip .introjs-tooltiptext .homeText{
+	color:#ffff !important;
+}
+
+
+
+.customTooltip .introjs-tooltipbuttons {
+	border-top: none !important;
+/* 	display: none !important; */
+}
+
+/* .customTooltip .introjs-tooltip-header { */
+/* 	display: none !important; */
+/* } */
+
+/* .customTooltip .introjs-tooltipbuttons{ */
+/* 	display: none !important; */
+/* } */
+.customTooltip {
+	line-height: 17px !important;
+    width: 320px !important;
+    background: #1e90ff !important;
+    border-radius: 6px !important;
+    padding: 3px !important;
+    text-align: center !important;
+    /* color: #000; */
+    height: 370px !important;
+}
+
+ .customTooltip .introjs-skipbutton{
+ 
+    top: 100% !important;
+    right: -11px !important;
+ 
+ }
