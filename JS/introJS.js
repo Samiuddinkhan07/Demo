@@ -33,8 +33,8 @@
                },
                
            ],
-           nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-           prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
+          nextLabel: 'Next',
+           prevLabel: 'Back',
             tooltipClass:'loginTooltip',
           
        });
@@ -52,35 +52,35 @@
        intro2.setOptions({
            steps:[
                {
-                   title:'Smart Integral',
-                   intro:'Welcome to Integral,Let us guide you through our website',
+                   title:'<img src="images/sunset-IntroJS-1.png" width="300px"/><span class="imageText">You have to be responsible for the energy you’re putting out into the world.</span>',
+                   intro:'<div> Welcome to <b>Integral</b></div><br> <span class="homeText">Sample loren text for checking if you can add your custom classses in the intro key or variable</span>',
                },
                {
-                 title:'Social Cards',
+                 title:'<img src="images/homepage-introjs.png" width="300px"/><span class="imageTextBottom">“Extraordinary things are always hiding in places people never think to look.”</span>',
                  element:'#homeSocialTrends',
                  intro:'Here you can find all the latest news and updates' , 
                },
                {
-                   title:'Calender',
+                   title:'<img src="images/calender-introJS.png" width="300px"/><span class="imageTextBottom">“Setting goals is the first step in turning the invisible into the visible.”</span>',
                    element:'.calendarIcon',
                    intro:'Description',
                    position:'left'
                },
                {
-                   title:'Settings',
+                   title:'<img src="images/settings-introjs.png" width="300px"/><span class="imageTextBottom">“You can have it all. Just not all at once.”</span>',
                    element:'.settingIcon',
                    intro:'click here for more settings',
                    position:'left'
                },
                {
-                 title:'Help',
+                 title:'<img src="images/help-introjs.png" width="300px"/><span class="imageTextBottom">"Say something positive, and you’ll see something positive.”</span>',
                  element:'.helpIcon',
                  intro:'Click for any issues' ,
                  position:'left'
                  
                },
                {
-                 title:'Profile',
+                 title:'<img src="images/profile-introjs3.svg" width="300px"/><span class="imageTextBottom">You have to be responsible for the energy you’re putting out into the world.</span>',
                  element:'.userProfileIcon', 
                  intro:'Check your profile here'  ,
                  position:'left'
@@ -90,31 +90,14 @@
                   element:'#toggleSearchFeildDiv',
                   intro:'Search the Data you looking for here.',
                   position:'left' 
-               },		  
-           ],
-           nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-           prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-           tooltipClass:'customTooltip',
-       });
-        intro2.onbeforechange(function () {
-          if (this._currentStep === 7) {
-            console.log('what is happening');
-           sideBarMenuHomeGuide()
-            return false;
-          }
-          });
-       intro2.start().oncomplete(function(){
-           intro2.exit();
-       });
-     }
-     //Ends here
-     
-     //This function is to trigger intro for Side bar menu in home page
-    function sideBarMenuHomeGuide(){
-        const intro11 = introJs();
-        intro11.setOptions({
-            steps:[
+               },
                 {
+                  title:'<img src="images/sidemenu-introjs.svg" width="300px"/><span class="imageText">You have to be responsible for the energy you’re putting out into the world.</span>',
+                  element:'#show-sidebar',
+                  intro:'Search the Data you looking for here.',
+                  position:'left' ,
+               },
+                   {
                    title:'Side-Bar Menu',
                    element:'.sidebar-content',
                    intro:'Here you can find all the data',
@@ -162,17 +145,41 @@
                    element:'.IntroClass7',
                    intro:'Do you want Subscribe?',
                    position:'right'
-               },   
-            ],
-             nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-             prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-             tooltipClass:'sideBarTooltip',
-            
-        })
-        intro11.start().oncomplete(function(){
-            intro11.exit();
-        })
-    }
+               },   		  
+           ],
+           nextLabel: 'Next',
+           prevLabel: 'Back',
+           tooltipClass:'customTooltip',
+       });
+    //    intro2.onbeforechange(function () {
+    //      if (this._currentStep === 8) {
+    //        console.log('what is happening');
+    //       sideBarMenuHomeGuide()
+    //        return false;
+    //      }
+    //      });
+       intro2.start().oncomplete(function(){
+           intro2.exit();
+       });
+     }
+     //Ends here
+     
+     //This function is to trigger intro for Side bar menu in home page
+    //function sideBarMenuHomeGuide(){
+    //	const intro11 = introJs();
+    //	intro11.setOptions({
+    //		steps:[
+    //		
+    //		],
+    //		 nextLabel: 'Next',
+    //	     prevLabel: 'Back',
+    //		 tooltipClass:'sideBarTooltip',
+    //		
+    //	})
+    //	intro11.start().oncomplete(function(){
+    //		intro11.exit();
+    //	})
+    
      
      //This function is to trigger intro on  Data Analytics Home page
      function dxpAnalyticsGuideHome(){
@@ -191,33 +198,6 @@
                     element:'#visualizationMainDivwrapperID',
                     intro:'Description here'
                 },
-                
-                 
-             ],
-           nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-           prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-           tooltipClass:'sideBarTooltip',
-             
-         });
-         intro3.onbeforechange(function(){
-             if(this._currentStep === 2){
-                 console.log('ToggleDivSuccess')
-                 toggleIntroToggleDA();
-                 return false;
-             }
-         });
-         
-        intro3.start().oncomplete(function(){
-           intro3.exit();
-           });
-          
-     }
-     //Ends here
-     
-     function toggleIntroToggleDA(){
-         const intro12 = introJs();
-         intro12.setOptions({
-             steps:[
                  {
                     title:'toggle',
                     element:'#columnsToggleIcon',
@@ -228,15 +208,43 @@
                     element:'#visualToggleIcon',
                     intro:'click on the icon to add charts'
                 },
+                
+                 
              ],
-                nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-                prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-                tooltipClass:'toggleToolTips'
+           nextLabel: 'Next',
+           prevLabel: 'Back',
+           tooltipClass:'customTooltip',
+             
          });
-         intro12.start().oncomplete(function(){
-             intro12.exit();
-         })
+    //	 intro3.onbeforechange(function(){
+    //		 if(this._currentStep === 2){
+    //			 console.log('ToggleDivSuccess')
+    //    		 toggleIntroToggleDA();
+    //			 return false;
+    //		 }
+    //	 });
+         
+        intro3.start().oncomplete(function(){
+           intro3.exit();
+           });
+          
      }
+     //Ends here
+     
+    // function toggleIntroToggleDA(){
+    //	 const intro12 = introJs();
+    //	 intro12.setOptions({
+    //		 steps:[
+    //			
+    //		 ],
+    //		   nextLabel: 'Next',
+    //	        prevLabel: 'Back',',
+    //		    tooltipClass:'toggleToolTips'
+    //	 });
+    //	 intro12.start().oncomplete(function(){
+    //		 intro12.exit();
+    //	 })
+    // }
      
      
      
@@ -267,9 +275,9 @@
                  }
     
              ],
-             nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-             prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-             tooltipClass:'DITooltip',
+            nextLabel: 'Next',
+             prevLabel: 'Back',
+             tooltipClass:'customTooltip',
          });
          intro4.start().oncomplete(function(){
              intro4.exit();
@@ -293,9 +301,9 @@
                       position:'right'
                   }
               ],
-              nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-              prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-              tooltipClass:'DATooltip',
+             nextLabel: 'Next',
+              prevLabel: 'Back',
+              tooltipClass:'customTooltip',
           });
           
            intro5.start().oncomplete(function(){
@@ -315,57 +323,11 @@
                     title:'Data Integration',
                     intro:'Welcome to Data Integration',
                 },
-                
-            ],
-            nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-            prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-            tooltipClass:'customTooltip',
-        });
-        intro6.onbeforechange(function(){
-            if(this._currentStep === 1){
-                console.log("ETL icons")
-                iconsETL();
-                return false;
-            }
-        })
-        intro6.start().oncomplete(function(){
-            intro6.exit();
-        });
-    }
-    //Ends here
-    
-    function iconsETL(){
-        const intro13 = introJs();
-        intro13.setOptions({
-            steps:[
-                //etl icons
                 {
                     title:'ETL',
                     element:'.showEtlIcons',
                     intro:'Description',
                 },
-                
-            ],
-            nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-            prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-            tooltipClass:'iconETLTooltip',
-        });
-        intro13.onbeforechange(function(){
-            if(this._currentStep === 1){
-                console.log("connection")
-                connectionsDI();
-                return false;
-            }
-        })
-        intro13.start().oncomplete(function(){
-            intro13.exit();
-        });
-    }
-    
-    function connectionsDI(){
-        const intro14 = introJs();
-        intro14.setOptions({
-            steps:[
                 {
                     title:'New Connections',
                     element:'#newConnections',
@@ -386,65 +348,117 @@
                     element:'#schemaObjects',
                     intro:'schema objects',
                 },
-            ],
-            nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-            prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-            tooltipClass:'connectionDITooltip',
-        });
-        intro14.onbeforechange(function(){
-            if(this._currentStep === 4){
-                fileAndDataDI();
-                return false;
-            }
-        })
-        intro14.start().oncomplete(function(){
-            intro14.exit();
-        });
-    }
-    function fileAndDataDI(){
-        const intro15 = introJs();
-        intro15.setOptions({
-            steps:[
                 {
                     title:'Sources',
                     element:'#connectionsTabs',
                     intro:'You can find all the sources here',
                 },
-            ],
-            nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-            prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-            tooltipClass:'fileAndDataDITooltip',
-        });
-        intro15.onbeforechange(function(){
-            if(this._currentStep === 1){
-                settingDI();
-                return false;
-            }
-        })
-        
-        intro15.start().oncomplete(function(){
-            intro15.exit();
-        });
-    }
-    function settingDI(){
-        const intro16 = introJs();
-        intro16.setOptions({
-            steps:[
                 {
                     title:'Feed List Container',
                     element:'#feedListContainer',
                     intro:'You can find all the settings related to ETL',
                 },
             ],
-            nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-            prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-            tooltipClass:' settingDITooltip',
+            nextLabel: 'Next',
+            prevLabel: 'Back',
+            tooltipClass:'customTooltip',
         });
-        
-        intro16.start().oncomplete(function(){
-            intro16.exit();
+    //	intro6.onbeforechange(function(){
+    //		if(this._currentStep === 1){
+    //			console.log("ETL icons")
+    //			iconsETL();
+    //			return false;
+    //		}
+    //	})
+        intro6.start().oncomplete(function(){
+            intro6.exit();
         });
     }
+    //Ends here
+    
+    //function iconsETL(){
+    //	const intro13 = introJs();
+    //	intro13.setOptions({
+    //		steps:[
+    //			//etl icons
+    //			
+    //			
+    //		],
+    //		nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
+    //	    prevLabel: 'Back',',
+    //		tooltipClass:'iconETLTooltip',
+    //	});
+    //	intro13.onbeforechange(function(){
+    //		if(this._currentStep === 1){
+    //			console.log("connection")
+    //			connectionsDI();
+    //			return false;
+    //		}
+    //	})
+    //	intro13.start().oncomplete(function(){
+    //		intro13.exit();
+    //	});
+    //}
+    
+    //function connectionsDI(){
+    //	const intro14 = introJs();
+    //	intro14.setOptions({
+    //		steps:[
+    //			
+    //		],
+    //		nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
+    //	    prevLabel: 'Back',',
+    //		tooltipClass:'connectionDITooltip',
+    //	});
+    //	intro14.onbeforechange(function(){
+    //		if(this._currentStep === 4){
+    //			fileAndDataDI();
+    //			return false;
+    //		}
+    //	})
+    //	intro14.start().oncomplete(function(){
+    //		intro14.exit();
+    //	});
+    //}
+    
+    //function fileAndDataDI(){
+    //	const intro15 = introJs();
+    //	intro15.setOptions({
+    //		steps:[
+    //			
+    //		],
+    //		nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
+    //	    prevLabel: 'Back',',
+    //		tooltipClass:'fileAndDataDITooltip',
+    //	});
+    //	intro15.onbeforechange(function(){
+    //		if(this._currentStep === 1){
+    //			settingDI();
+    //			return false;
+    //		}
+    //	})
+    //	
+    //	intro15.start().oncomplete(function(){
+    //		intro15.exit();
+    //	});
+    //}
+    //function settingDI(){
+    //	const intro16 = introJs();
+    //	intro16.setOptions({
+    //		steps:[
+    //			
+    //		],
+    //		nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
+    //	    prevLabel: 'Back',',
+    //		tooltipClass:' settingDITooltip',
+    //	});
+    //	
+    //	intro16.start().oncomplete(function(){
+    //		intro16.exit();
+    //	});
+    //}
+    
+    
     //This function is to trigger intro for Transform Features home page
     function transformFeaturesGuideHome(){
         const intro7 = introJs();
@@ -462,8 +476,8 @@
                 },
             ],
             nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-            prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-            tooltipClass:'transformFeaturesTooltip',
+            prevLabel: 'Back',
+            tooltipClass:'customTooltip',
         });
         intro7.start().oncomplete(function(){
             intro7.exit();
@@ -485,9 +499,9 @@
                     position:'right'
                 },
             ],
-             nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-             prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-            tooltipClass:'analyticsFeaturesTooltip',
+            nextLabel: 'Next',
+             prevLabel: 'Back',
+            tooltipClass:'customTooltip',
         });
         intro8.start().oncomplete(function(){
             intro8.exit();
@@ -511,9 +525,9 @@
                     position:'right'
                 },
             ],
-             nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-             prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-            tooltipClass:'AiTooltip',
+            nextLabel: 'Next',
+             prevLabel: 'Back',
+            tooltipClass:'customTooltip',
         });
         intro9.start().oncomplete(function(){
             intro9.exit();
@@ -536,9 +550,9 @@
                     position:'right'
                 },
             ],
-             nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-             prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-            tooltipClass:'dsKnowledgeTooltip',
+            nextLabel: 'Next',
+             prevLabel: 'Back',
+            tooltipClass:'customTooltip',
         });
         intro10.start().oncomplete(function(){
             intro10.exit();
@@ -570,9 +584,9 @@
                      intro:'select the language you prefer',
                  },
              ],
-              nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-             prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-            tooltipClass:'searchToggleTooltip',
+             nextLabel: 'Next',
+             prevLabel: 'Back',
+            tooltipClass:'customTooltip',
         });
         
         intro18.start().oncomplete(function(){
@@ -595,9 +609,9 @@
                 }
                 
             ],
-             nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-             prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-            tooltipClass:'CalenderTooltip',
+            nextLabel: 'Next',
+             prevLabel: 'Back',
+            tooltipClass:'customTooltip',
             
         })
         intro19.start();
@@ -689,9 +703,9 @@
                      position:'left',
                  },
              ],
-              nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-             prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-            tooltipClass:'CalenderTooltip',
+             nextLabel: 'Next',
+             prevLabel: 'Back',
+            tooltipClass:'customTooltip',
              
          })
          intro20.start();
@@ -737,9 +751,9 @@
                      position:'left',
                  }
              ],
-             nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-             prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-             tooltipClass:'CalenderTooltip',
+            nextLabel: 'Next',
+             prevLabel: 'Back',
+             tooltipClass:'customTooltip',
          })
          intro21.start();
      }
@@ -796,9 +810,9 @@
                      position:'left',
                  },
              ],
-              nextLabel: '<img src="images/introjs-arrow-next.svg" width="20px"/>',
-             prevLabel: '<img src="images/introjs-arrow-prev.svg" width="20px"/>',
-             tooltipClass:'CalenderTooltip',
+             nextLabel: 'Next',
+             prevLabel: 'Back',
+             tooltipClass:'customTooltip',
              
          })
          intro22.start();
