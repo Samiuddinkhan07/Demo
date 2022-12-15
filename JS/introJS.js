@@ -56,74 +56,74 @@
                    intro:'<div> Welcome to <b>Integral</b></div><br> <span class="homeText">Sample loren text for checking if you can add your custom classses in the intro key or variable</span>',
                },
                {
-                 title:'<img src="images/homepage-introjs.png" width="300px"/><span class="imageTextBottom">“Extraordinary things are always hiding in places people never think to look.”</span>',
+                 title:'<img src="images/homepage-introjs.svg" width="300px"/><span class="mainCardsText">“Extraordinary things are always hiding in places people never think to look.”</span>',
                  element:'#homeSocialTrends',
                  intro:'Here you can find all the latest news and updates' , 
                },
                {
-                   title:'<img src="images/calender-introJS.png" width="300px"/><span class="imageTextBottom">“Setting goals is the first step in turning the invisible into the visible.”</span>',
+                   title:'<img src="images/calender-introJS.svg" width="300px"/><span class="calenderText">“Setting goals is the first step in turning the invisible into the visible.”</span>',
                    element:'.calendarIcon',
                    intro:'Description',
                    position:'left'
                },
                {
-                   title:'<img src="images/settings-introjs.png" width="300px"/><span class="imageTextBottom">“You can have it all. Just not all at once.”</span>',
+                   title:'<img src="images/settings-introjs.svg" width="300px"/><span class="settingIconText">“You can have it all. Just not all at once.”</span>',
                    element:'.settingIcon',
                    intro:'click here for more settings',
                    position:'left'
                },
                {
-                 title:'<img src="images/help-introjs.png" width="300px"/><span class="imageTextBottom">"Say something positive, and you’ll see something positive.”</span>',
+                 title:'<img src="images/help-introjs.svg" width="300px"/><span class="helpIconText">"Say something positive, and you’ll see something positive.”</span>',
                  element:'.helpIcon',
                  intro:'Click for any issues' ,
                  position:'left'
                  
                },
                {
-                 title:'<img src="images/profile-introjs3.svg" width="300px"/><span class="imageTextBottom">You have to be responsible for the energy you’re putting out into the world.</span>',
+                 title:'<img src="images/profile-introjs.svg" width="300px"/><span class="profileIconText">You have to be responsible for the energy you’re putting out into the world.</span>',
                  element:'.userProfileIcon', 
                  intro:'Check your profile here'  ,
                  position:'left'
                },
                 {
-                  title:'Search',
+                  title:'<img src="images/searchbar-introjs.svg" width="300px"/><span class="imageTextBottom">You have to be responsible for the energy you’re putting out into the world.</span>',
                   element:'#toggleSearchFeildDiv',
                   intro:'Search the Data you looking for here.',
                   position:'left' 
                },
                 {
-                  title:'<img src="images/sidemenu-introjs.svg" width="300px"/><span class="imageText">You have to be responsible for the energy you’re putting out into the world.</span>',
+                  title:'<img src="images/sidemenu-introjs.svg" width="300px"/><span class="imageTextBottom">You have to be responsible for the energy you’re putting out into the world.</span>',
                   element:'#show-sidebar',
                   intro:'Search the Data you looking for here.',
                   position:'left' ,
                },
                    {
-                   title:'Side-Bar Menu',
+                   title:'<span class="imageTextBottom">You have to be responsible for the energy you’re putting out into the world.</span>',
                    element:'.sidebar-content',
                    intro:'Here you can find all the data',
                    position:'right'
                    
                },
                {
-                   title:'Data Analytics',
+                   title:'<img src="images/Data-Analytics-Homepage.svg" width="300px"/><span class="imageTextBottom">You have to be responsible for the energy you’re putting out into the world.</span>',
                    element:'.IntroClass0',
                    intro:'You can customize your chats here ',
                    position:'right'
                },
                {
-                   title:'Data Integration',
+                   title:'<img src="images/Data-Integration-Homepage.svg" width="300px"/><span class="imageTextBottom">You have to be responsible for the energy you’re putting out into the world.</span>',
                    element:'.IntroClass1',
                    intro:'Do you wish to add jobs?',
                    position:'right'
                },
                {
-                   title :'Analytics Features',
+                   title :'<img src="images/Analytics-Feature.svg" width="300px"/><span class="imageTextBottom">You have to be responsible for the energy you’re putting out into the world.</span>',
                    element:'.IntroClass2',
                    intro:'Do you want to know Analytics Features?',
                    position:'right'
                },
                {
-                   title:'Transform Features',
+                   title:'<img src="images/Transform-Features.svg" width="300px"/><span class="imageTextBottom">You have to be responsible for the energy you’re putting out into the world.</span>',
                    element:'.IntroClass3',
                    intro:'Do you want to know Transform Features?',
                    position:'right'

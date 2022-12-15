@@ -1,3 +1,62 @@
+/* Hint Image Css */
+.page-body .hintImage {
+	background-image: linear-gradient(160deg, #0093E9 0%, #0021ad 100%);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    padding: 3px;
+    width: 42px;
+    position: fixed;
+    right: 0px;
+    bottom: 38%;
+    z-index: 99999;
+    font: normal normal 10px Arial;
+    transition: all .25s ease;
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    border: 2px solid #0093E9;
+    border-radius: 50px;
+    transition: all .2s ease-in-out;
+}
+.page-body .hintImage img{
+	transition-duration: 0.5s;
+}
+.page-body .hintImage img:hover{
+	transform:rotate(360deg)
+}
+
+
+.hintImage .textHint {
+	color: #fff !important;
+	text-align: center;
+	/*   line-height: 43px!important; */
+	/*   vertical-align: top!important; */
+	cursor: pointer;
+	display:none;
+}
+
+.page-body .hintImage:hover {
+	    right: 0%;
+    transform: scale(1);
+    /* width: 14%; */
+    /* transition: width 2s; */
+    width: 11%;
+    transition: width 0.9s ease-in-out;
+}
+
+
+.hintImage:hover .textHint{
+	display:block;
+}
+/* Hint Image Css */
+
+
+
+
+
+
+/* CustomTooltip Css */
+
 .customTooltip .introjs-tooltip-title {
 	color: #ffff !important;
     margin-left: -21px !important;
@@ -115,3 +174,48 @@
     color:#000 !important;
  
  }
+  .customTooltip .introjs-tooltip-title .calenderText{
+   color: #195190FF !important;
+    position: absolute !important;
+    right: 13px !important;
+    top: 70% !important;
+    font-size: 11px !important;
+    font-family: 'Avenir Next' !important;
+ 
+ }
+ 
+ .customTooltip .introjs-tooltip-title .mainCardsText{
+   color: #195190FF !important;
+    position: absolute !important;
+    right: 13px !important;
+    top: 66% !important;
+    font-size: 11px !important;
+    font-family: 'Avenir Next' !important;
+ 
+ }
+ .customTooltip .introjs-tooltip-title .helpIconText{
+   color: #195190FF !important;
+    position: absolute !important;
+    right: 6px !important;
+    top: 71% !important;
+    font-size: 11px !important;
+    font-family: 'Avenir Next' !important;
+ 
+ }
+  .customTooltip .introjs-tooltip-title .profileIconText{
+   color: #195190FF !important;
+    position: absolute !important;
+    right: 6px !important;
+    top: 84% !important;
+    font-size: 11px !important;
+    font-family: 'Avenir Next' !important;
+ 
+}
+.customTooltip .introjs-tooltip-title .settingIconText{
+	color: #195190FF !important;
+    position: absolute !important;
+    right: 16% !important;
+    top: 65% !important;
+    font-size: 11px !important;
+    font-family: 'Avenir Next' !important;
+}
